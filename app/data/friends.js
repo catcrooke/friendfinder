@@ -1,24 +1,24 @@
 // You should save the data in your app as an array of objects. 
 // Each of these objects should roughly follow the format below.
 var friends = [{
-    "name": "Ahmed",
-    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name": "Sergey",
+    "photo": "http://i.huffpost.com/gen/1358010/images/o-SERGEY-BRIN-facebook.jpg",
     "scores": ["5", "1", "4", "4", "5", "1", "2", "5", "4", "1"]
 }, {
-    "name": "Jacob Deming",
-    "photo": "https://pbs.twimg.com/profile_images/691785039043022849/oWsy8LNR.jpg",
+    "name": "Alan",
+    "photo": "http://a2.files.biography.com/image/upload/c_fill,cs_srgb,dpr_1.0,g_face,h_300,q_80,w_300/MTE5NDg0MDU1MTUzMTE2Njg3.jpg",
     "scores": ["4", "2", "5", "1", "3", "2", "2", "1", "3", "2"]
 }, {
-    "name": "Jeremiah Scanlon",
-    "photo": "https://avatars2.githubusercontent.com/u/8504998?v=3&s=460",
+    "name": "Grace",
+    "photo": "http://history-computer.com/ModernComputer/Software/images/Hopper_young.jpg",
     "scores": ["5", "2", "2", "2", "4", "1", "3", "2", "5", "5"]
 }, {
-    "name": "Louis T. Delia",
-    "photo": "https://pbs.twimg.com/profile_images/639214960049000449/lNCRC-ub.jpg",
+    "name": "John",
+    "photo": "https://www.wired.com/wp-content/uploads/blogs/wiredenterprise/wp-content/uploads/2011/10/john-mccarthy.png",
     "scores": ["3", "3", "4", "2", "2", "1", "3", "2", "2", "3"]
 }, {
-    "name": "Lou Ritter",
-    "photo": "https://m.facebook.com/photo.php?fbid=10208500699025296&id=1542229019&set=a.1549418665704.77596.1542229019&source=11",
+    "name": "Ada",
+    "photo": "http://vignette1.wikia.nocookie.net/curious-expedition/images/a/a0/Lovelace.jpg/revision/latest?cb=20160129184107",
     "scores": ["4", "3", "4", "1", "5", "2", "5", "3", "1", "4"]
 }];
 

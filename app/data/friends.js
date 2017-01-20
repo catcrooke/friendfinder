@@ -27,6 +27,8 @@ module.exports = friends;
 
 // Determine the user's most compatible friend using the following as a guide:
 // Convert each user's results into a simple array of numbers (ex: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]).
+
+
 // With that done, compare the difference between current user's scores a
 // against those from other users, question by question. 
 // Add up the differences to calculate the totalDifference.

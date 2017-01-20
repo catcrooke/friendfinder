@@ -1,1 +1,1 @@
-web: node friends.js
+web: node server.js

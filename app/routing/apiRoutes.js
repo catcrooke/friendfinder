@@ -3,7 +3,8 @@
 // A POST routes /api/friends. This will be used to handle incoming survey results. 
 // This route will also be used to handle the compatibility logic.
 var path = require("path");
-var friends = [];
+var friends = require("../data/friends.js");
+// var friends = [];
 
 module.exports = function apiRoutes(app) {
     // Route to api/friends

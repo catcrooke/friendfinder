@@ -164,8 +164,6 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <!-- title in the name -->
-                    <!-- img tag in the body -->
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -237,6 +235,9 @@ $("#submit").on("click", function() {
         // passes data through it as a parameter
         $.post(currentURL + "/api/friends", newFriend,
             function(data) {
+                // create a variable that is set equal to a header tag with the data.name and an image tag with the data.photo from matchedFriend object
+                var htmlStr = '<h1>' + data.name + '</h1><img width="300px" src=' + data.photo + ' />';
+                $(".modal-body").html(htmlStr);
                 // code for the modal to display the requested information
                 $('#matchModal').modal('show');
             });

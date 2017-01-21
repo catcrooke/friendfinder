@@ -55,7 +55,8 @@ function bestMatch(friends, newFriend) {
         return {
             // information from the matched Friend that will display in the modal
             name: matchFriend.name,
-            photo: matchFriend.photo
+        photo: matchFriend.photo
+
         };
     }
 }

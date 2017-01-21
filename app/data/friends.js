@@ -1,5 +1,4 @@
-// You should save the data in your app as an array of objects. 
-// Each of these objects should roughly follow the format below.
+// Preloaded data in the app is displayed as an array of objects
 var friends = [{
     "name": "Sergey",
     "photo": "http://i.huffpost.com/gen/1358010/images/o-SERGEY-BRIN-facebook.jpg",
@@ -22,18 +21,5 @@ var friends = [{
     "scores": ["4", "3", "4", "1", "5", "2", "5", "3", "1", "4"]
 }];
 
+// friends object returned as the result of a require call
 module.exports = friends;
-
-
-// Determine the user's most compatible friend using the following as a guide:
-// Convert each user's results into a simple array of numbers (ex: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]).
-
-
-// With that done, compare the difference between current user's scores a
-// against those from other users, question by question. 
-// Add up the differences to calculate the totalDifference.
-// Remember to use the absolute value of the differences. Put another way: no negative solutions! 
-// Your app should calculate both 5-3 and 3-5 as 2, and so on.
-// The closest match will be the user with the least amount of difference.
-// Once you've found the current user's most compatible friend, display the result as a modal pop-up.
-// The modal should display both the name and picture of the closest match.
